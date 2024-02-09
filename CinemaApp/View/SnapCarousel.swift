@@ -102,8 +102,3 @@ struct SnapCarousel<Content: View,T: Identifiable>: View {
         .animation(.easeInOut, value: offset == 0)
     }
 }
-
-#Preview {
-   ContentView()
-}
-

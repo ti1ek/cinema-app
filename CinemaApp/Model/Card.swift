@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Post: Identifiable{
+struct Card: Identifiable{
     var id = UUID().uuidString
     var postImage: String
 }
